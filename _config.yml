@@ -1,0 +1,27 @@
+title: "KDG Portfolio"
+email: kdg3795@github.io
+description: "Backend Developer | Spring · MyBatis · eGovFramework"
+baseurl: ""
+url: "https://kdg3795.github.io"
+
+theme: minimal-mistakes-jekyll
+
+plugins:
+  - jekyll-include-cache
+
+author:
+  name   : "김동규"
+  avatar : "/assets/images/profile.jpg"
+  bio    : "Backend Developer (Spring, MyBatis, eGovFramework)"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/kdg3795"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
