@@ -4,7 +4,7 @@ description: "Backend Developer | Spring · MyBatis · eGovFramework"
 baseurl: ""
 url: "https://kdg3795.github.io"
 
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 
 plugins:
   - jekyll-include-cache
